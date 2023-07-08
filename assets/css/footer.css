@@ -1,0 +1,10 @@
+.footer{
+  margin-top: 300px;
+  border-bottom: solid 2px #90AFC5;
+}
+
+.footer-copyright{
+  padding: 10px 10px;
+  float: left;
+  color: #fff;
+}

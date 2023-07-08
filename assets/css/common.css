@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  border: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+body{
+  background-color: #4b7f89; 
+}
+
+.div{
+  display: block;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.sp-only{
+  display: none;
+}
+
+.thema, .swiper-container{
+  transform:translateX(-50px);
+  opacity:0;
+  transition:opacity 1s,transform 0.5s;
+}
+
+.fadein{
+  opacity:1;
+  transform:translateX(0);
+}
